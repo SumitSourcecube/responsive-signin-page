@@ -1,0 +1,40 @@
+.google-button-component {
+    width: auto;
+    height: auto;
+    
+
+    .google-button-component-element{
+        background-color: white;
+        border: none;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+        padding: 10px 90px 10px 90px;
+        gap: 10px;
+        border-radius: 8px 0px 0px 0px;
+        border: 1px 0px 0px 0px;
+        opacity: 0px;
+        border-radius: 8px;
+        border: 1px solid #D0D5DD;
+    }
+    @media screen and (max-width: 420px) {
+        .google-button-component-element{
+            background-color: white;
+            border: none;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 20px;
+            display: flex;
+            align-items: center;
+            padding: 10px 70px 10px 70px;
+            gap: 10px;
+            border-radius: 8px;
+            border: 1px;
+            opacity: 0px;
+            border-radius: 8px;
+            border: 1px solid #D0D5DD;
+        }
+    }
+}

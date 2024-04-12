@@ -1,0 +1,33 @@
+.button-component-div {
+    width: auto;
+    height: auto;
+
+    .button-component-element {
+        width: auto;
+        height: auto;
+        padding: 12px 154px 12px 154px;
+        border: none;
+        border-radius: 8px;
+        background: #5429FF;
+        color: white;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+    }
+
+    @media screen and (max-width: 420px) {
+        .button-component-element {
+            width: auto;
+            height: auto;
+            padding: 12px 132px 12px 132px;;
+            border: none;
+            border-radius: 8px;
+            background: #5429FF;
+            color: white;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 20px;
+        }
+        
+    }
+}

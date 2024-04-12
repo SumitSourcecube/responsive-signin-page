@@ -1,0 +1,252 @@
+.signin-page-container {
+    width: 100vw;
+    height: 100vh;
+    border-radius: 44px 0px 0px 0px;
+    background: #EFF0FF;
+    position: relative;
+    .signin-page-card {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 1440px;
+        height: 900px;
+        border-radius: 44px;
+        background: #FCFDFF;
+
+        .siginpage-logo {
+            position: fixed;
+            display: flex;
+            align-items: center;
+            width: auto;
+            height: auto;
+            top: 40px;
+            left: 40px;
+            gap: 12px;
+        }
+
+        #logo-text {
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 19.36px;
+            letter-spacing: 0.01em;
+        }
+
+        .signin-form-card, .signin-form {
+            position: fixed;
+            width: 360px;
+            height: 517px;
+            top: 221px;
+            left: 140px;
+            border-radius: 8px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 56px 0;
+        }
+
+        .signin-form-header {
+            width: auto;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 8px;
+
+            #signing-header-text1 {
+                font-family: Inter;
+                font-size: 40px;
+                font-weight: 700;
+                line-height: 48.41px;
+                letter-spacing: 0.01em;
+                color: #344054;
+            }
+
+            #signing-header-text2{
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+                color: #667085;
+            }
+        }
+
+        .signin-form-body {
+            width: 360px;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 32px;
+
+            .form-body-inputs {
+                width: 360px;
+                height: auto;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+            }
+
+            .form-input-email, .form-input-password{
+                width: 100%;
+                height: 72px;
+            }
+
+            .form-input-check {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+
+            .form-input-check-text {
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 20px;
+                color: #5429FF;
+                cursor: pointer;
+            }
+
+            .form-body-buttons {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 16px 0;
+            }
+
+            #form-question-text1, #form-question-text2 {
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 24px;
+                text-align: center;
+                cursor: pointer;
+            }
+            #form-question-text2 {
+                color: #5429FF;
+            }
+        }
+
+        .signing-page-side-image {
+            position: fixed;
+            width: 734px;
+            height: 805px;
+            top: 32px;
+            left: 640px;
+            padding: 0px 16px 31px 16px;
+            border-radius: 40px;
+            background: #CBCCE8;
+            background-image: url('../../../assets/images/background-image.png');
+        }
+        
+    }
+    
+    @media screen and (max-width: 1420px) {
+        .signin-page-card {
+            position: fixed;
+            top: 30px;
+            left: 50px;
+            transform: matrix(1, 0, 0, 1, 0, 0);;
+            width: 1440px;
+            height: 900px;
+            border-radius: 44px;
+            background: #FCFDFF;
+        }
+    
+    }
+}
+
+
+@media screen and (max-width: 420px) {
+    .signin-page-container {
+        width: 100vw;
+        height: 100vh;
+        border-radius: 44px 0px 0px 0px;
+        background: #EFF0FF;
+    
+        .signin-page-card {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 375px;
+            height: 812px;
+            border-radius: 44px;
+            background: #FCFDFF;
+    
+            .siginpage-logo {
+                position: fixed;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: auto;
+                height: auto;
+                top: 88px;
+                left: 137px;
+                gap: 12px;
+            }
+    
+            #logo-text {
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 19.36px;
+                letter-spacing: 0.01em;
+            }
+    
+            .signin-form-card, .signin-form {
+                position: fixed;
+                width: 327px;
+                height: 508px;
+                top: 207px;
+                left: 24px;
+                border-radius: 8px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 56px 0;
+            }
+    
+            .signin-form-header {
+                width: auto;
+                height: auto;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 8px;
+    
+                #signing-header-text1 {
+                    font-size: 32px;
+                    font-weight: 700;
+                    line-height: 38.73px;
+                    letter-spacing: 0.01em;
+                    color: #344054;
+                }
+    
+                #signing-header-text2{
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    color: #667085;
+                }
+            }
+    
+            .signin-form-body {
+                width: 327px;
+                height: auto;
+                display: flex;
+                flex-direction: column;
+                gap: 32px;
+    
+                .form-body-inputs {
+                    width: 327px;
+                    height: auto;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+                }
+    
+            }
+    
+            .signing-page-side-image {
+                display: none;
+            }
+            
+        }
+    }
+}
